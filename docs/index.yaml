@@ -1,0 +1,34 @@
+apiVersion: v1
+entries:
+  grafana-agent:
+  - apiVersion: v2
+    appVersion: v0.40.1
+    created: "2024-03-04T15:12:01.698633389+01:00"
+    dependencies:
+    - condition: crds.create
+      name: crds
+      repository: ""
+      version: 0.0.0
+    description: Grafana Agent
+    digest: 579986ea54107281dbd448521712b89b73cc4804d94690720d9a6a2eb38b87ce
+    name: grafana-agent
+    type: application
+    urls:
+    - https://onematchfox.github.io/charts/grafana-agent-0.36.0.tgz
+    version: 0.36.0
+  - apiVersion: v2
+    appVersion: v0.37.4
+    created: "2024-03-04T15:12:01.697437252+01:00"
+    dependencies:
+    - condition: crds.create
+      name: crds
+      repository: ""
+      version: 0.0.0
+    description: Grafana Agent
+    digest: c1cec49342bccaf3886a4672311fcbc122e36af744f4c12c2757f0e93821470c
+    name: grafana-agent
+    type: application
+    urls:
+    - https://onematchfox.github.io/charts/grafana-agent-0.27.2.tgz
+    version: 0.27.2
+generated: "2024-03-04T15:12:01.696091473+01:00"
